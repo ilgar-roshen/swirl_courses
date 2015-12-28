@@ -75,7 +75,7 @@
 
 - Class: mult_question
   Output: 'Which of the following evaluates to TRUE?'
-  CorrectAnswer: 9 >= 10
+  CorrectAnswer: -6 > -7
   AnswerChoices: 9 >= 10; 7 == 9; 57 < 8; -6 > -7 
   AnswerTests: omnitest(correctVal='-6 > -7')
   Hint: 'If you need to, you can evaluate each expression in a separate R session to find the correct answer.'
